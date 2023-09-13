@@ -1,0 +1,14 @@
+
+replicaCount: 1
+
+image:
+  repository: 691936972587.dkr.ecr.ap-northeast-1.amazonaws.com/spring:latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8080
+
+
+
